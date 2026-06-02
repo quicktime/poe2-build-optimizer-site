@@ -1,0 +1,2075 @@
+{
+  "baseline": {
+    "buildName": "Demo Shield Wall Build",
+    "mainSkill": "Shield Wall",
+    "fullDps": 0,
+    "totalDps": 5828.452581946,
+    "totalDotDps": 0.51746902138256,
+    "combinedDps": 5828.9700509674,
+    "effectiveHitPool": 3503.7769202228,
+    "life": 1555,
+    "lifeUnreserved": 1555,
+    "energyShield": 0,
+    "armour": 14914,
+    "evasion": 149,
+    "ward": 0,
+    "blockChance": 27.82,
+    "spellBlockChance": 0,
+    "mana": 0,
+    "manaUnreserved": 0,
+    "strength": 233,
+    "dexterity": 27,
+    "intelligence": 28,
+    "fireResistance": 75,
+    "coldResistance": 75,
+    "lightningResistance": 75,
+    "chaosResistance": 43,
+    "uncappedFireResistance": 75,
+    "uncappedColdResistance": 75,
+    "uncappedLightningResistance": 75,
+    "uncappedChaosResistance": 43,
+    "fireResistanceOverCap": 0,
+    "coldResistanceOverCap": 0,
+    "lightningResistanceOverCap": 0,
+    "chaosResistanceOverCap": 0,
+    "missingFireResistance": 0,
+    "missingColdResistance": 0,
+    "missingLightningResistance": 0,
+    "missingChaosResistance": 32,
+    "warnings": []
+  },
+  "objectiveWeights": {
+    "dps": 1.25,
+    "ehp": 0.5
+  },
+  "ranked": [],
+  "rejected": [
+    {
+      "candidate": {
+        "id": "passive-restructure-41363-8800-27687-13489-39347-16626-39190-59767-53089-57379",
+        "label": "Restructure 9 pts: allocate Lightning Resistance [41363], Unnatural Resilience [4547], Adaptive Skin [43250] via Lightning Resistance [41363]; Lightning Resistance [41363] -> Fire Resistance [62518] -> Cold Resistance [41414] -> Unnatural Resilience [4547]; Attribute [41768] -> Shaman [53123] -> Cold Resistance [8421] -> Cold Resistance [35404] -> Adaptive Skin [43250]; refund Melee Damage [8800], Greatest Defence [27687], Unbreakable [13489], Breaking Blows [39347], Impact Area [16626], Melee Damage [39190], Reverberating Impact [59767], Attack Area [53089], In Your Face [57379]",
+        "slotName": "Passive Tree",
+        "costExalted": 9,
+        "costUnit": "pt",
+        "outputs": {
+          "fullDps": 0,
+          "totalDps": 5828.452581946,
+          "totalDotDps": 0.51746902138256,
+          "combinedDps": 5828.9700509674,
+          "effectiveHitPool": 4069.563504579,
+          "life": 1555,
+          "lifeUnreserved": 1555,
+          "energyShield": 0,
+          "armour": 14541,
+          "evasion": 149,
+          "ward": 0,
+          "blockChance": 27.82,
+          "spellBlockChance": 0,
+          "mana": 0,
+          "manaUnreserved": 0,
+          "strength": 233,
+          "dexterity": 27,
+          "intelligence": 28,
+          "fireResistance": 75,
+          "coldResistance": 75,
+          "lightningResistance": 75,
+          "chaosResistance": 43,
+          "uncappedFireResistance": 86,
+          "uncappedColdResistance": 93,
+          "uncappedLightningResistance": 100,
+          "uncappedChaosResistance": 43,
+          "fireResistanceOverCap": 11,
+          "coldResistanceOverCap": 18,
+          "lightningResistanceOverCap": 25,
+          "chaosResistanceOverCap": 0,
+          "missingFireResistance": 0,
+          "missingColdResistance": 0,
+          "missingLightningResistance": 0,
+          "missingChaosResistance": 32,
+          "warnings": []
+        },
+        "passiveDiff": {
+          "action": "restructure",
+          "pointCount": 9,
+          "allocateNodeIds": [
+            41363,
+            41414,
+            43250,
+            8421
+          ],
+          "refundNodeIds": [
+            8800,
+            27687,
+            13489,
+            39347,
+            16626,
+            39190,
+            59767,
+            53089,
+            57379
+          ],
+          "routeNodeIds": [
+            62518,
+            41768,
+            53123,
+            5862,
+            22697
+          ],
+          "nodes": [
+            {
+              "id": 41363,
+              "name": "Lightning Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Lightning Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "62518": {
+                  "orbit": -5
+                }
+              },
+              "group": 243,
+              "orbit": 4,
+              "orbitIndex": 9,
+              "icon": "Art/2DArt/SkillIcons/passives/lightningstr.png",
+              "iconSprite": {
+                "x": 441,
+                "y": 1154,
+                "w": 49,
+                "h": 49
+              },
+              "x": -7263.756356875031,
+              "y": 7853.686356875033
+            },
+            {
+              "id": 62518,
+              "name": "Fire Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Fire Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "41414": {
+                  "orbit": 4
+                }
+              },
+              "group": 243,
+              "orbit": 3,
+              "orbitIndex": 7,
+              "icon": "Art/2DArt/SkillIcons/passives/fireresist.png",
+              "iconSprite": {
+                "x": 833,
+                "y": 1105,
+                "w": 49,
+                "h": 49
+              },
+              "x": -7288.774848193158,
+              "y": 8288.99438010933
+            },
+            {
+              "id": 41414,
+              "name": "Cold Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Cold Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "4547": {
+                  "orbit": -7
+                }
+              },
+              "group": 243,
+              "orbit": 7,
+              "orbitIndex": 23,
+              "icon": "Art/2DArt/SkillIcons/passives/coldresist.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 1056,
+                "w": 49,
+                "h": 49
+              },
+              "x": -7677.323580320742,
+              "y": 7959.842617601447
+            },
+            {
+              "id": 41768,
+              "name": "Attribute",
+              "type": "Normal",
+              "stats": [
+                "+5 to any Attribute"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "28982": {
+                  "orbit": 0
+                },
+                "37484": {
+                  "orbit": 0
+                },
+                "46399": {
+                  "orbit": 0
+                },
+                "53123": {
+                  "orbit": 0
+                }
+              },
+              "group": 115,
+              "orbit": 0,
+              "orbitIndex": 0,
+              "icon": "Art/2DArt/SkillIcons/passives/plusattribute.png",
+              "iconSprite": {
+                "x": 931,
+                "y": 1154,
+                "w": 49,
+                "h": 49
+              },
+              "x": -10398.4,
+              "y": -2166.4
+            },
+            {
+              "id": 53123,
+              "name": "Shaman",
+              "type": "Normal",
+              "stats": [
+                "+3% to all Elemental Resistances"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "5862": {
+                  "orbit": -2
+                },
+                "8421": {
+                  "orbit": -2
+                },
+                "54982": {
+                  "orbit": -2
+                }
+              },
+              "group": 145,
+              "orbit": 7,
+              "orbitIndex": 18,
+              "icon": "Art/2DArt/SkillIcons/passives/ElementalDominion2.png",
+              "iconSprite": {
+                "x": 196,
+                "y": 517,
+                "w": 49,
+                "h": 49
+              },
+              "x": -9986.55,
+              "y": -2055.780000000003
+            },
+            {
+              "id": 5862,
+              "name": "Lightning Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Lightning Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "22697": {
+                  "orbit": -2
+                }
+              },
+              "group": 145,
+              "orbit": 7,
+              "orbitIndex": 14,
+              "icon": "Art/2DArt/SkillIcons/passives/LightningResistNode.png",
+              "iconSprite": {
+                "x": 884,
+                "y": 68,
+                "w": 34,
+                "h": 34
+              },
+              "x": -9861.050000000001,
+              "y": -1838.407623650107
+            },
+            {
+              "id": 22697,
+              "name": "Lightning Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Lightning Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "43250": {
+                  "orbit": 2
+                }
+              },
+              "group": 145,
+              "orbit": 2,
+              "orbitIndex": 10,
+              "icon": "Art/2DArt/SkillIcons/passives/LightningResistNode.png",
+              "iconSprite": {
+                "x": 884,
+                "y": 68,
+                "w": 34,
+                "h": 34
+              },
+              "x": -9654.55,
+              "y": -1915.4838845869206
+            },
+            {
+              "id": 43250,
+              "name": "Adaptive Skin",
+              "type": "Notable",
+              "stats": [
+                "+1% to Maximum Resistances of each Elemental Damage Type you have been Hit with Recently"
+              ],
+              "allocated": false,
+              "group": 145,
+              "orbit": 7,
+              "orbitIndex": 6,
+              "icon": "Art/2DArt/SkillIcons/passives/ElementalDominion2.png",
+              "iconSprite": {
+                "x": 196,
+                "y": 517,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -9484.55,
+              "y": -2055.7799999999993
+            },
+            {
+              "id": 8421,
+              "name": "Cold Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Cold Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "35404": {
+                  "orbit": 2
+                }
+              },
+              "group": 145,
+              "orbit": 2,
+              "orbitIndex": 22,
+              "icon": "Art/2DArt/SkillIcons/passives/ColdResistNode.png",
+              "iconSprite": {
+                "x": 442,
+                "y": 34,
+                "w": 34,
+                "h": 34
+              },
+              "x": -9816.549999999997,
+              "y": -2196.0761154130805
+            },
+            {
+              "id": 8800,
+              "name": "Melee Damage",
+              "type": "Normal",
+              "stats": [
+                "15% increased Melee Damage with Hits at Close Range"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "28982": {
+                  "orbit": 0
+                }
+              },
+              "group": 135,
+              "orbit": 3,
+              "orbitIndex": 15,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "x": -10262.980771697485,
+              "y": -880.1992283024966
+            },
+            {
+              "id": 27687,
+              "name": "Greatest Defence",
+              "type": "Notable",
+              "stats": [
+                "4% increased Attack Damage per 75 Item Armour and Evasion on Equipped Shield"
+              ],
+              "allocated": true,
+              "group": 177,
+              "orbit": 3,
+              "orbitIndex": 4,
+              "icon": "Art/2DArt/SkillIcons/passives/shieldblock.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 1203,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -8654.881489732212,
+              "y": 1786.5100000000007
+            },
+            {
+              "id": 13489,
+              "name": "Unbreakable",
+              "type": "Notable",
+              "stats": [
+                "15% increased Armour",
+                "50% reduced Armour Break taken",
+                "10% reduced Slowing Potency of Debuffs on You"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "47517": {
+                  "orbit": 0
+                }
+              },
+              "group": 132,
+              "orbit": 3,
+              "orbitIndex": 5,
+              "icon": "Art/2DArt/SkillIcons/passives/dmgreduction.png",
+              "iconSprite": {
+                "x": 343,
+                "y": 1105,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -9777.114848193167,
+              "y": 1631.0156198906402
+            },
+            {
+              "id": 39347,
+              "name": "Breaking Blows",
+              "type": "Notable",
+              "stats": [
+                "30% increased Stun Buildup",
+                "12% increased Area of Effect if you have Stunned an Enemy Recently"
+              ],
+              "allocated": true,
+              "group": 212,
+              "orbit": 3,
+              "orbitIndex": 21,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -8395.530771697502,
+              "y": 3210.7992283025155
+            },
+            {
+              "id": 16626,
+              "name": "Impact Area",
+              "type": "Notable",
+              "stats": [
+                "12% increased Area of Effect if you have Stunned an Enemy Recently",
+                "12% increased Area of Effect for Attacks"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "53089": {
+                  "orbit": 0
+                },
+                "62023": {
+                  "orbit": 0
+                }
+              },
+              "group": 291,
+              "orbit": 2,
+              "orbitIndex": 20,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -7002.446115413078,
+              "y": 907.3299999999984
+            },
+            {
+              "id": 39190,
+              "name": "Melee Damage",
+              "type": "Normal",
+              "stats": [
+                "15% increased Melee Damage with Hits at Close Range"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "8800": {
+                  "orbit": 0
+                }
+              },
+              "group": 135,
+              "orbit": 3,
+              "orbitIndex": 13,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "x": -10112.804380109332,
+              "y": -793.4948481931583
+            },
+            {
+              "id": 59767,
+              "name": "Reverberating Impact",
+              "type": "Notable",
+              "stats": [
+                "Break 25% increased Armour",
+                "12% increased Area of Effect for Attacks"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "20645": {
+                  "orbit": 0
+                },
+                "31292": {
+                  "orbit": 0
+                }
+              },
+              "group": 527,
+              "orbit": 3,
+              "orbitIndex": 11,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -3637.515619890641,
+              "y": 1713.9751518068342
+            },
+            {
+              "id": 53089,
+              "name": "Attack Area",
+              "type": "Normal",
+              "stats": [
+                "6% increased Area of Effect for Attacks"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "9918": {
+                  "orbit": 0
+                },
+                "10474": {
+                  "orbit": 0
+                }
+              },
+              "group": 291,
+              "orbit": 2,
+              "orbitIndex": 12,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "x": -6862.150000000001,
+              "y": 1150.33
+            },
+            {
+              "id": 57379,
+              "name": "In Your Face",
+              "type": "Notable",
+              "stats": [
+                "40% increased Melee Damage with Hits at Close Range"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "39190": {
+                  "orbit": 0
+                },
+                "49111": {
+                  "orbit": 0
+                }
+              },
+              "group": 135,
+              "orbit": 3,
+              "orbitIndex": 10,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -9858.600000000002,
+              "y": -826.9614897322119
+            },
+            {
+              "id": 62498,
+              "name": "Strength",
+              "type": "Normal",
+              "stats": [
+                "+5 to Strength"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "3446": {
+                  "orbit": 0
+                },
+                "12255": {
+                  "orbit": 0
+                },
+                "21390": {
+                  "orbit": 0
+                },
+                "41363": {
+                  "orbit": 0
+                },
+                "51561": {
+                  "orbit": 0
+                }
+              },
+              "group": 284,
+              "orbit": 0,
+              "orbitIndex": 0,
+              "icon": "Art/2DArt/SkillIcons/passives/plusattribute.png",
+              "iconSprite": {
+                "x": 931,
+                "y": 1154,
+                "w": 49,
+                "h": 49
+              },
+              "x": -7025.42,
+              "y": 7906.98
+            },
+            {
+              "id": 28982,
+              "name": "Strength",
+              "type": "Normal",
+              "stats": [
+                "+5 to Strength"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "31295": {
+                  "orbit": 0
+                },
+                "32845": {
+                  "orbit": 0
+                },
+                "45226": {
+                  "orbit": 0
+                },
+                "55190": {
+                  "orbit": 0
+                }
+              },
+              "group": 99,
+              "orbit": 0,
+              "orbitIndex": 0,
+              "icon": "Art/2DArt/SkillIcons/passives/plusattribute.png",
+              "iconSprite": {
+                "x": 931,
+                "y": 1154,
+                "w": 49,
+                "h": 49
+              },
+              "x": -10667.7,
+              "y": -1117.08
+            },
+            {
+              "id": 30371,
+              "name": "Shield Damage",
+              "type": "Normal",
+              "stats": [
+                "Attack Skills deal 10% increased Damage while holding a Shield"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "27687": {
+                  "orbit": -4
+                }
+              },
+              "group": 177,
+              "orbit": 3,
+              "orbitIndex": 1,
+              "icon": "Art/2DArt/SkillIcons/passives/shieldblock.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 1203,
+                "w": 49,
+                "h": 49
+              },
+              "x": -8858.295619890656,
+              "y": 1630.4248481931622
+            },
+            {
+              "id": 675,
+              "name": "Armour and Slow Effect on You",
+              "type": "Normal",
+              "stats": [
+                "10% increased Armour",
+                "5% reduced Slowing Potency of Debuffs on You"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "13489": {
+                  "orbit": -9
+                }
+              },
+              "group": 132,
+              "orbit": 2,
+              "orbitIndex": 5,
+              "icon": "Art/2DArt/SkillIcons/passives/dmgreduction.png",
+              "iconSprite": {
+                "x": 343,
+                "y": 1105,
+                "w": 49,
+                "h": 49
+              },
+              "x": -9944.220016141173,
+              "y": 1675.7913146933843
+            },
+            {
+              "id": 51903,
+              "name": "Melee Damage",
+              "type": "Normal",
+              "stats": [
+                "10% increased Melee Damage"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "39347": {
+                  "orbit": 0
+                },
+                "55058": {
+                  "orbit": 0
+                }
+              },
+              "group": 212,
+              "orbit": 3,
+              "orbitIndex": 17,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "x": -8482.235151806834,
+              "y": 3534.3843801093576
+            },
+            {
+              "id": 53443,
+              "name": "Area Damage",
+              "type": "Normal",
+              "stats": [
+                "10% increased Attack Area Damage"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "5710": {
+                  "orbit": -6
+                },
+                "59767": {
+                  "orbit": 0
+                }
+              },
+              "group": 527,
+              "orbit": 3,
+              "orbitIndex": 8,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "x": -3434.101489732214,
+              "y": 1557.8900000000015
+            },
+            {
+              "id": 10474,
+              "name": "Attack Area",
+              "type": "Normal",
+              "stats": [
+                "6% increased Area of Effect for Attacks"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "53785": {
+                  "orbit": 0
+                },
+                "64443": {
+                  "orbit": 0
+                }
+              },
+              "group": 291,
+              "orbit": 3,
+              "orbitIndex": 12,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "x": -6862.150000000002,
+              "y": 1323.33
+            }
+          ],
+          "groups": [
+            {
+              "id": 243,
+              "x": -7612.36,
+              "y": 8202.29,
+              "orbits": [
+                1,
+                2,
+                4,
+                5
+              ]
+            },
+            {
+              "id": 115,
+              "x": -10398.4,
+              "y": -2166.4,
+              "orbits": [
+                1
+              ]
+            },
+            {
+              "id": 145,
+              "x": -9735.55,
+              "y": -2055.78,
+              "orbits": [
+                2,
+                3
+              ]
+            },
+            {
+              "id": 135,
+              "x": -10026.1,
+              "y": -1117.08,
+              "orbits": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": 177,
+              "x": -8945,
+              "y": 1954.01,
+              "orbits": [
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "id": 132,
+              "x": -10100.7,
+              "y": 1717.72,
+              "orbits": [
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "id": 212,
+              "x": -8158.65,
+              "y": 3447.68,
+              "orbits": [
+                1,
+                4,
+                5
+              ]
+            },
+            {
+              "id": 291,
+              "x": -6862.15,
+              "y": 988.33,
+              "orbits": [
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "id": 527,
+              "x": -3724.22,
+              "y": 1390.39,
+              "orbits": [
+                1,
+                4,
+                5
+              ]
+            },
+            {
+              "id": 284,
+              "x": -7025.42,
+              "y": 7906.98,
+              "orbits": [
+                1
+              ]
+            },
+            {
+              "id": 99,
+              "x": -10667.7,
+              "y": -1117.08,
+              "orbits": [
+                1
+              ]
+            }
+          ],
+          "edges": [
+            {
+              "from": 41363,
+              "to": 62498,
+              "orbit": 0
+            },
+            {
+              "from": 41363,
+              "to": 62518,
+              "orbit": -5
+            },
+            {
+              "from": 41414,
+              "to": 62518,
+              "orbit": 4
+            },
+            {
+              "from": 41768,
+              "to": 53123,
+              "orbit": 0
+            },
+            {
+              "from": 5862,
+              "to": 53123,
+              "orbit": -2
+            },
+            {
+              "from": 5862,
+              "to": 22697,
+              "orbit": -2
+            },
+            {
+              "from": 22697,
+              "to": 43250,
+              "orbit": 2
+            },
+            {
+              "from": 8421,
+              "to": 53123,
+              "orbit": -2
+            },
+            {
+              "from": 8800,
+              "to": 39190,
+              "orbit": 0
+            },
+            {
+              "from": 8800,
+              "to": 28982,
+              "orbit": 0
+            },
+            {
+              "from": 27687,
+              "to": 30371,
+              "orbit": -4
+            },
+            {
+              "from": 39347,
+              "to": 51903,
+              "orbit": 0
+            },
+            {
+              "from": 16626,
+              "to": 53089,
+              "orbit": 0
+            },
+            {
+              "from": 39190,
+              "to": 57379,
+              "orbit": 0
+            },
+            {
+              "from": 28982,
+              "to": 41768,
+              "orbit": 0
+            },
+            {
+              "from": 675,
+              "to": 13489,
+              "orbit": -9
+            },
+            {
+              "from": 53443,
+              "to": 59767,
+              "orbit": 0
+            },
+            {
+              "from": 10474,
+              "to": 53089,
+              "orbit": 0
+            }
+          ],
+          "exportXmlPath": "demo-passive-package.xml"
+        }
+      },
+      "reasons": [
+        "does not improve weighted objective"
+      ],
+      "audit": {
+        "gates": [
+          "objective"
+        ],
+        "dpsDeltaPct": 0,
+        "missingElementalResistance": [],
+        "statDeltas": [
+          {
+            "stat": "EHP",
+            "before": 3503.8,
+            "after": 4069.6,
+            "delta": 565.8,
+            "deltaPct": 16.1
+          }
+        ],
+        "slotRoles": [
+          {
+            "slotName": "Restructure 9 pts",
+            "roles": [
+              "damage",
+              "repair"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "id": "passive-restructure-41363-8800-27687-13489-39347-16626-39190-59767-53089-57379",
+        "label": "Restructure 9 pts: allocate Lightning Resistance [41363], Unnatural Resilience [4547], Adaptive Skin [43250] via Lightning Resistance [41363]; Lightning Resistance [41363] -> Fire Resistance [62518] -> Cold Resistance [41414] -> Unnatural Resilience [4547]; Attribute [41768] -> Shaman [53123] -> Fire Resistance [54982] -> Fire Resistance [34818] -> Adaptive Skin [43250]; refund Melee Damage [8800], Greatest Defence [27687], Unbreakable [13489], Breaking Blows [39347], Impact Area [16626], Melee Damage [39190], Reverberating Impact [59767], Attack Area [53089], In Your Face [57379]",
+        "slotName": "Passive Tree",
+        "costExalted": 9,
+        "costUnit": "pt",
+        "outputs": {
+          "fullDps": 0,
+          "totalDps": 5828.452581946,
+          "totalDotDps": 0.51746902138256,
+          "combinedDps": 5828.9700509674,
+          "effectiveHitPool": 4069.563504579,
+          "life": 1555,
+          "lifeUnreserved": 1555,
+          "energyShield": 0,
+          "armour": 14541,
+          "evasion": 149,
+          "ward": 0,
+          "blockChance": 27.82,
+          "spellBlockChance": 0,
+          "mana": 0,
+          "manaUnreserved": 0,
+          "strength": 233,
+          "dexterity": 27,
+          "intelligence": 28,
+          "fireResistance": 75,
+          "coldResistance": 75,
+          "lightningResistance": 75,
+          "chaosResistance": 43,
+          "uncappedFireResistance": 86,
+          "uncappedColdResistance": 93,
+          "uncappedLightningResistance": 100,
+          "uncappedChaosResistance": 43,
+          "fireResistanceOverCap": 11,
+          "coldResistanceOverCap": 18,
+          "lightningResistanceOverCap": 25,
+          "chaosResistanceOverCap": 0,
+          "missingFireResistance": 0,
+          "missingColdResistance": 0,
+          "missingLightningResistance": 0,
+          "missingChaosResistance": 32,
+          "warnings": []
+        },
+        "passiveDiff": {
+          "action": "restructure",
+          "pointCount": 9,
+          "allocateNodeIds": [
+            41363,
+            41414,
+            43250,
+            8421
+          ],
+          "refundNodeIds": [
+            8800,
+            27687,
+            13489,
+            39347,
+            16626,
+            39190,
+            59767,
+            53089,
+            57379
+          ],
+          "routeNodeIds": [
+            62518,
+            41768,
+            53123,
+            5862,
+            22697
+          ],
+          "nodes": [
+            {
+              "id": 41363,
+              "name": "Lightning Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Lightning Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "62518": {
+                  "orbit": -5
+                }
+              },
+              "group": 243,
+              "orbit": 4,
+              "orbitIndex": 9,
+              "icon": "Art/2DArt/SkillIcons/passives/lightningstr.png",
+              "iconSprite": {
+                "x": 441,
+                "y": 1154,
+                "w": 49,
+                "h": 49
+              },
+              "x": -7263.756356875031,
+              "y": 7853.686356875033
+            },
+            {
+              "id": 62518,
+              "name": "Fire Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Fire Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "41414": {
+                  "orbit": 4
+                }
+              },
+              "group": 243,
+              "orbit": 3,
+              "orbitIndex": 7,
+              "icon": "Art/2DArt/SkillIcons/passives/fireresist.png",
+              "iconSprite": {
+                "x": 833,
+                "y": 1105,
+                "w": 49,
+                "h": 49
+              },
+              "x": -7288.774848193158,
+              "y": 8288.99438010933
+            },
+            {
+              "id": 41414,
+              "name": "Cold Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Cold Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "4547": {
+                  "orbit": -7
+                }
+              },
+              "group": 243,
+              "orbit": 7,
+              "orbitIndex": 23,
+              "icon": "Art/2DArt/SkillIcons/passives/coldresist.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 1056,
+                "w": 49,
+                "h": 49
+              },
+              "x": -7677.323580320742,
+              "y": 7959.842617601447
+            },
+            {
+              "id": 41768,
+              "name": "Attribute",
+              "type": "Normal",
+              "stats": [
+                "+5 to any Attribute"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "28982": {
+                  "orbit": 0
+                },
+                "37484": {
+                  "orbit": 0
+                },
+                "46399": {
+                  "orbit": 0
+                },
+                "53123": {
+                  "orbit": 0
+                }
+              },
+              "group": 115,
+              "orbit": 0,
+              "orbitIndex": 0,
+              "icon": "Art/2DArt/SkillIcons/passives/plusattribute.png",
+              "iconSprite": {
+                "x": 931,
+                "y": 1154,
+                "w": 49,
+                "h": 49
+              },
+              "x": -10398.4,
+              "y": -2166.4
+            },
+            {
+              "id": 53123,
+              "name": "Shaman",
+              "type": "Normal",
+              "stats": [
+                "+3% to all Elemental Resistances"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "5862": {
+                  "orbit": -2
+                },
+                "8421": {
+                  "orbit": -2
+                },
+                "54982": {
+                  "orbit": -2
+                }
+              },
+              "group": 145,
+              "orbit": 7,
+              "orbitIndex": 18,
+              "icon": "Art/2DArt/SkillIcons/passives/ElementalDominion2.png",
+              "iconSprite": {
+                "x": 196,
+                "y": 517,
+                "w": 49,
+                "h": 49
+              },
+              "x": -9986.55,
+              "y": -2055.780000000003
+            },
+            {
+              "id": 5862,
+              "name": "Lightning Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Lightning Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "22697": {
+                  "orbit": -2
+                }
+              },
+              "group": 145,
+              "orbit": 7,
+              "orbitIndex": 14,
+              "icon": "Art/2DArt/SkillIcons/passives/LightningResistNode.png",
+              "iconSprite": {
+                "x": 884,
+                "y": 68,
+                "w": 34,
+                "h": 34
+              },
+              "x": -9861.050000000001,
+              "y": -1838.407623650107
+            },
+            {
+              "id": 22697,
+              "name": "Lightning Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Lightning Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "43250": {
+                  "orbit": 2
+                }
+              },
+              "group": 145,
+              "orbit": 2,
+              "orbitIndex": 10,
+              "icon": "Art/2DArt/SkillIcons/passives/LightningResistNode.png",
+              "iconSprite": {
+                "x": 884,
+                "y": 68,
+                "w": 34,
+                "h": 34
+              },
+              "x": -9654.55,
+              "y": -1915.4838845869206
+            },
+            {
+              "id": 43250,
+              "name": "Adaptive Skin",
+              "type": "Notable",
+              "stats": [
+                "+1% to Maximum Resistances of each Elemental Damage Type you have been Hit with Recently"
+              ],
+              "allocated": false,
+              "group": 145,
+              "orbit": 7,
+              "orbitIndex": 6,
+              "icon": "Art/2DArt/SkillIcons/passives/ElementalDominion2.png",
+              "iconSprite": {
+                "x": 196,
+                "y": 517,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -9484.55,
+              "y": -2055.7799999999993
+            },
+            {
+              "id": 8421,
+              "name": "Cold Resistance",
+              "type": "Normal",
+              "stats": [
+                "+5% to Cold Resistance"
+              ],
+              "allocated": false,
+              "linkedNodeMetadata": {
+                "35404": {
+                  "orbit": 2
+                }
+              },
+              "group": 145,
+              "orbit": 2,
+              "orbitIndex": 22,
+              "icon": "Art/2DArt/SkillIcons/passives/ColdResistNode.png",
+              "iconSprite": {
+                "x": 442,
+                "y": 34,
+                "w": 34,
+                "h": 34
+              },
+              "x": -9816.549999999997,
+              "y": -2196.0761154130805
+            },
+            {
+              "id": 8800,
+              "name": "Melee Damage",
+              "type": "Normal",
+              "stats": [
+                "15% increased Melee Damage with Hits at Close Range"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "28982": {
+                  "orbit": 0
+                }
+              },
+              "group": 135,
+              "orbit": 3,
+              "orbitIndex": 15,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "x": -10262.980771697485,
+              "y": -880.1992283024966
+            },
+            {
+              "id": 27687,
+              "name": "Greatest Defence",
+              "type": "Notable",
+              "stats": [
+                "4% increased Attack Damage per 75 Item Armour and Evasion on Equipped Shield"
+              ],
+              "allocated": true,
+              "group": 177,
+              "orbit": 3,
+              "orbitIndex": 4,
+              "icon": "Art/2DArt/SkillIcons/passives/shieldblock.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 1203,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -8654.881489732212,
+              "y": 1786.5100000000007
+            },
+            {
+              "id": 13489,
+              "name": "Unbreakable",
+              "type": "Notable",
+              "stats": [
+                "15% increased Armour",
+                "50% reduced Armour Break taken",
+                "10% reduced Slowing Potency of Debuffs on You"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "47517": {
+                  "orbit": 0
+                }
+              },
+              "group": 132,
+              "orbit": 3,
+              "orbitIndex": 5,
+              "icon": "Art/2DArt/SkillIcons/passives/dmgreduction.png",
+              "iconSprite": {
+                "x": 343,
+                "y": 1105,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -9777.114848193167,
+              "y": 1631.0156198906402
+            },
+            {
+              "id": 39347,
+              "name": "Breaking Blows",
+              "type": "Notable",
+              "stats": [
+                "30% increased Stun Buildup",
+                "12% increased Area of Effect if you have Stunned an Enemy Recently"
+              ],
+              "allocated": true,
+              "group": 212,
+              "orbit": 3,
+              "orbitIndex": 21,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -8395.530771697502,
+              "y": 3210.7992283025155
+            },
+            {
+              "id": 16626,
+              "name": "Impact Area",
+              "type": "Notable",
+              "stats": [
+                "12% increased Area of Effect if you have Stunned an Enemy Recently",
+                "12% increased Area of Effect for Attacks"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "53089": {
+                  "orbit": 0
+                },
+                "62023": {
+                  "orbit": 0
+                }
+              },
+              "group": 291,
+              "orbit": 2,
+              "orbitIndex": 20,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -7002.446115413078,
+              "y": 907.3299999999984
+            },
+            {
+              "id": 39190,
+              "name": "Melee Damage",
+              "type": "Normal",
+              "stats": [
+                "15% increased Melee Damage with Hits at Close Range"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "8800": {
+                  "orbit": 0
+                }
+              },
+              "group": 135,
+              "orbit": 3,
+              "orbitIndex": 13,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "x": -10112.804380109332,
+              "y": -793.4948481931583
+            },
+            {
+              "id": 59767,
+              "name": "Reverberating Impact",
+              "type": "Notable",
+              "stats": [
+                "Break 25% increased Armour",
+                "12% increased Area of Effect for Attacks"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "20645": {
+                  "orbit": 0
+                },
+                "31292": {
+                  "orbit": 0
+                }
+              },
+              "group": 527,
+              "orbit": 3,
+              "orbitIndex": 11,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -3637.515619890641,
+              "y": 1713.9751518068342
+            },
+            {
+              "id": 53089,
+              "name": "Attack Area",
+              "type": "Normal",
+              "stats": [
+                "6% increased Area of Effect for Attacks"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "9918": {
+                  "orbit": 0
+                },
+                "10474": {
+                  "orbit": 0
+                }
+              },
+              "group": 291,
+              "orbit": 2,
+              "orbitIndex": 12,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "x": -6862.150000000001,
+              "y": 1150.33
+            },
+            {
+              "id": 57379,
+              "name": "In Your Face",
+              "type": "Notable",
+              "stats": [
+                "40% increased Melee Damage with Hits at Close Range"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "39190": {
+                  "orbit": 0
+                },
+                "49111": {
+                  "orbit": 0
+                }
+              },
+              "group": 135,
+              "orbit": 3,
+              "orbitIndex": 10,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "frame": "Notable",
+              "x": -9858.600000000002,
+              "y": -826.9614897322119
+            },
+            {
+              "id": 62498,
+              "name": "Strength",
+              "type": "Normal",
+              "stats": [
+                "+5 to Strength"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "3446": {
+                  "orbit": 0
+                },
+                "12255": {
+                  "orbit": 0
+                },
+                "21390": {
+                  "orbit": 0
+                },
+                "41363": {
+                  "orbit": 0
+                },
+                "51561": {
+                  "orbit": 0
+                }
+              },
+              "group": 284,
+              "orbit": 0,
+              "orbitIndex": 0,
+              "icon": "Art/2DArt/SkillIcons/passives/plusattribute.png",
+              "iconSprite": {
+                "x": 931,
+                "y": 1154,
+                "w": 49,
+                "h": 49
+              },
+              "x": -7025.42,
+              "y": 7906.98
+            },
+            {
+              "id": 28982,
+              "name": "Strength",
+              "type": "Normal",
+              "stats": [
+                "+5 to Strength"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "31295": {
+                  "orbit": 0
+                },
+                "32845": {
+                  "orbit": 0
+                },
+                "45226": {
+                  "orbit": 0
+                },
+                "55190": {
+                  "orbit": 0
+                }
+              },
+              "group": 99,
+              "orbit": 0,
+              "orbitIndex": 0,
+              "icon": "Art/2DArt/SkillIcons/passives/plusattribute.png",
+              "iconSprite": {
+                "x": 931,
+                "y": 1154,
+                "w": 49,
+                "h": 49
+              },
+              "x": -10667.7,
+              "y": -1117.08
+            },
+            {
+              "id": 30371,
+              "name": "Shield Damage",
+              "type": "Normal",
+              "stats": [
+                "Attack Skills deal 10% increased Damage while holding a Shield"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "27687": {
+                  "orbit": -4
+                }
+              },
+              "group": 177,
+              "orbit": 3,
+              "orbitIndex": 1,
+              "icon": "Art/2DArt/SkillIcons/passives/shieldblock.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 1203,
+                "w": 49,
+                "h": 49
+              },
+              "x": -8858.295619890656,
+              "y": 1630.4248481931622
+            },
+            {
+              "id": 675,
+              "name": "Armour and Slow Effect on You",
+              "type": "Normal",
+              "stats": [
+                "10% increased Armour",
+                "5% reduced Slowing Potency of Debuffs on You"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "13489": {
+                  "orbit": -9
+                }
+              },
+              "group": 132,
+              "orbit": 2,
+              "orbitIndex": 5,
+              "icon": "Art/2DArt/SkillIcons/passives/dmgreduction.png",
+              "iconSprite": {
+                "x": 343,
+                "y": 1105,
+                "w": 49,
+                "h": 49
+              },
+              "x": -9944.220016141173,
+              "y": 1675.7913146933843
+            },
+            {
+              "id": 51903,
+              "name": "Melee Damage",
+              "type": "Normal",
+              "stats": [
+                "10% increased Melee Damage"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "39347": {
+                  "orbit": 0
+                },
+                "55058": {
+                  "orbit": 0
+                }
+              },
+              "group": 212,
+              "orbit": 3,
+              "orbitIndex": 17,
+              "icon": "Art/2DArt/SkillIcons/passives/MeleeAoENode.png",
+              "iconSprite": {
+                "x": 882,
+                "y": 664,
+                "w": 49,
+                "h": 49
+              },
+              "x": -8482.235151806834,
+              "y": 3534.3843801093576
+            },
+            {
+              "id": 53443,
+              "name": "Area Damage",
+              "type": "Normal",
+              "stats": [
+                "10% increased Attack Area Damage"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "5710": {
+                  "orbit": -6
+                },
+                "59767": {
+                  "orbit": 0
+                }
+              },
+              "group": 527,
+              "orbit": 3,
+              "orbitIndex": 8,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "x": -3434.101489732214,
+              "y": 1557.8900000000015
+            },
+            {
+              "id": 10474,
+              "name": "Attack Area",
+              "type": "Normal",
+              "stats": [
+                "6% increased Area of Effect for Attacks"
+              ],
+              "allocated": true,
+              "linkedNodeMetadata": {
+                "53785": {
+                  "orbit": 0
+                },
+                "64443": {
+                  "orbit": 0
+                }
+              },
+              "group": 291,
+              "orbit": 3,
+              "orbitIndex": 12,
+              "icon": "Art/2DArt/SkillIcons/passives/AreaDmgNode.png",
+              "iconSprite": {
+                "x": 294,
+                "y": 321,
+                "w": 49,
+                "h": 49
+              },
+              "x": -6862.150000000002,
+              "y": 1323.33
+            }
+          ],
+          "groups": [
+            {
+              "id": 243,
+              "x": -7612.36,
+              "y": 8202.29,
+              "orbits": [
+                1,
+                2,
+                4,
+                5
+              ]
+            },
+            {
+              "id": 115,
+              "x": -10398.4,
+              "y": -2166.4,
+              "orbits": [
+                1
+              ]
+            },
+            {
+              "id": 145,
+              "x": -9735.55,
+              "y": -2055.78,
+              "orbits": [
+                2,
+                3
+              ]
+            },
+            {
+              "id": 135,
+              "x": -10026.1,
+              "y": -1117.08,
+              "orbits": [
+                1,
+                4
+              ]
+            },
+            {
+              "id": 177,
+              "x": -8945,
+              "y": 1954.01,
+              "orbits": [
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "id": 132,
+              "x": -10100.7,
+              "y": 1717.72,
+              "orbits": [
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "id": 212,
+              "x": -8158.65,
+              "y": 3447.68,
+              "orbits": [
+                1,
+                4,
+                5
+              ]
+            },
+            {
+              "id": 291,
+              "x": -6862.15,
+              "y": 988.33,
+              "orbits": [
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "id": 527,
+              "x": -3724.22,
+              "y": 1390.39,
+              "orbits": [
+                1,
+                4,
+                5
+              ]
+            },
+            {
+              "id": 284,
+              "x": -7025.42,
+              "y": 7906.98,
+              "orbits": [
+                1
+              ]
+            },
+            {
+              "id": 99,
+              "x": -10667.7,
+              "y": -1117.08,
+              "orbits": [
+                1
+              ]
+            }
+          ],
+          "edges": [
+            {
+              "from": 41363,
+              "to": 62498,
+              "orbit": 0
+            },
+            {
+              "from": 41363,
+              "to": 62518,
+              "orbit": -5
+            },
+            {
+              "from": 41414,
+              "to": 62518,
+              "orbit": 4
+            },
+            {
+              "from": 41768,
+              "to": 53123,
+              "orbit": 0
+            },
+            {
+              "from": 5862,
+              "to": 53123,
+              "orbit": -2
+            },
+            {
+              "from": 5862,
+              "to": 22697,
+              "orbit": -2
+            },
+            {
+              "from": 22697,
+              "to": 43250,
+              "orbit": 2
+            },
+            {
+              "from": 8421,
+              "to": 53123,
+              "orbit": -2
+            },
+            {
+              "from": 8800,
+              "to": 39190,
+              "orbit": 0
+            },
+            {
+              "from": 8800,
+              "to": 28982,
+              "orbit": 0
+            },
+            {
+              "from": 27687,
+              "to": 30371,
+              "orbit": -4
+            },
+            {
+              "from": 39347,
+              "to": 51903,
+              "orbit": 0
+            },
+            {
+              "from": 16626,
+              "to": 53089,
+              "orbit": 0
+            },
+            {
+              "from": 39190,
+              "to": 57379,
+              "orbit": 0
+            },
+            {
+              "from": 28982,
+              "to": 41768,
+              "orbit": 0
+            },
+            {
+              "from": 675,
+              "to": 13489,
+              "orbit": -9
+            },
+            {
+              "from": 53443,
+              "to": 59767,
+              "orbit": 0
+            },
+            {
+              "from": 10474,
+              "to": 53089,
+              "orbit": 0
+            }
+          ],
+          "exportXmlPath": "demo-passive-package.xml"
+        }
+      },
+      "reasons": [
+        "does not improve weighted objective"
+      ],
+      "audit": {
+        "gates": [
+          "objective"
+        ],
+        "dpsDeltaPct": 0,
+        "missingElementalResistance": [],
+        "statDeltas": [
+          {
+            "stat": "EHP",
+            "before": 3503.8,
+            "after": 4069.6,
+            "delta": 565.8,
+            "deltaPct": 16.1
+          }
+        ],
+        "slotRoles": [
+          {
+            "slotName": "Restructure 9 pts",
+            "roles": [
+              "damage",
+              "repair"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "metrics": {
+    "generatedCandidates": 20,
+    "evaluatedCandidates": 20,
+    "eligibleCandidates": 4,
+    "filteredCandidates": 16,
+    "returnedCandidates": 0,
+    "generationMs": 29046,
+    "evaluationMs": 7461.7,
+    "rankingMs": 1.6,
+    "totalMs": 36706,
+    "evaluationCacheHit": false,
+    "progressiveBatches": []
+  }
+}

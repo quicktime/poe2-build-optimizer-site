@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PoE2 Upgrade Viewer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar">
+        <div>
+          <div class="eyebrow">PoE2 Build Optimizer</div>
+          <h1>Upgrade Decision Viewer</h1>
+        </div>
+        <label class="file-button">
+          <input id="fileInput" type="file" accept="application/json,.json" />
+          Load JSON
+        </label>
+      </section>
+
+      <section class="baseline" id="baseline"></section>
+
+      <section class="workspace">
+        <aside class="recommendations">
+          <div class="panel-title">Recommendations</div>
+          <div id="recommendations"></div>
+        </aside>
+
+        <section class="detail">
+          <div class="detail-header">
+            <div>
+              <div class="eyebrow" id="selectedType">No Report</div>
+              <h2 id="selectedTitle">Load an optimizer JSON report</h2>
+            </div>
+            <div class="score-pill" id="selectedScore"></div>
+          </div>
+
+          <div class="stat-grid" id="statGrid"></div>
+
+          <div class="split">
+            <section class="passive-panel">
+              <div class="panel-toolbar">
+                <div class="panel-title">Passive Diff</div>
+                <div class="toolbar-actions">
+                  <div class="tree-controls" role="group" aria-label="Passive tree zoom">
+                    <button id="zoomOut" type="button" aria-label="Zoom out">-</button>
+                    <button id="zoomFit" type="button" aria-label="Fit passive tree">Fit</button>
+                    <button id="zoomIn" type="button" aria-label="Zoom in">+</button>
+                  </div>
+                  <div class="view-toggle" role="group" aria-label="Passive tree view">
+                    <button class="view-mode active" data-view-mode="route" type="button">Main Route</button>
+                    <button class="view-mode" data-view-mode="all" type="button">All Affected</button>
+                  </div>
+                </div>
+              </div>
+              <div class="tree-frame" id="treeFrame">
+                <svg id="treeSvg" role="img" aria-label="Passive tree diff"></svg>
+                <div class="empty-state" id="emptyTree">Select a passive recommendation.</div>
+              </div>
+              <div class="legend">
+                <span><i class="node baseline-node"></i> Current</span>
+                <span><i class="node allocate-node"></i> Allocate</span>
+                <span><i class="node route-node"></i> Path</span>
+                <span><i class="node refund-node"></i> Refund</span>
+              </div>
+            </section>
+
+            <section class="notes-panel">
+              <div class="panel-title">Details</div>
+              <div id="details"></div>
+            </section>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
