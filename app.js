@@ -274,11 +274,11 @@ function drawPassiveDiff(passive) {
     edgeLayer.appendChild(svg("path", {
       d: edgePath(edge, from, to, passive),
       stroke: edgeColor(edge, passive),
-      "stroke-width": "22",
+      "stroke-width": edgeWidth(edge, passive),
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       fill: "none",
-      opacity: "0.72",
+      opacity: edgeOpacity(edge, passive),
     }));
   }
   els.treeSvg.appendChild(edgeLayer);
@@ -312,11 +312,11 @@ function drawPassiveDiff(passive) {
     }));
     if (selected) {
       group.appendChild(svg("circle", {
-        r: String(size.outer + 48),
+        r: String(size.outer + 38),
         fill: "none",
         stroke: "#ffe7a4",
-        "stroke-width": "12",
-        opacity: "0.78",
+        "stroke-width": "7",
+        opacity: "0.9",
         class: "selected-node-ring",
       }));
     }
@@ -326,13 +326,13 @@ function drawPassiveDiff(passive) {
       r: String(size.outer * 0.62),
       fill: "none",
       stroke: strokeForRole(role),
-      "stroke-width": role === "refund" ? "9" : "7",
-      opacity: role === "baseline" ? "0.42" : "0.76",
+      "stroke-width": role === "baseline" ? "0" : "5",
+      opacity: role === "baseline" ? "0" : "0.86",
     }));
     group.appendChild(svg("circle", {
-      r: String(Math.max(4, size.inner * 0.3)),
+      r: String(Math.max(3, size.inner * 0.22)),
       fill: coreFillForRole(role),
-      opacity: role === "baseline" ? "0.62" : "0.82",
+      opacity: role === "baseline" ? "0" : "0.7",
     }));
     group.appendChild(svg("title", {}, `${node.name}\n${(node.stats ?? []).join("\n")}`));
     group.appendChild(svg("circle", {
@@ -559,9 +559,21 @@ function connectedPrimaryRouteIds(passive, routeIds) {
 }
 
 function edgeColor(edge, passive) {
-  if (passive.refundNodeIds.includes(edge.from) || passive.refundNodeIds.includes(edge.to)) return "#a9433e";
-  if (passive.allocateNodeIds.includes(edge.from) || passive.allocateNodeIds.includes(edge.to)) return "#4cae68";
-  return "#4f87c5";
+  if (passive.refundNodeIds.includes(edge.from) || passive.refundNodeIds.includes(edge.to)) return "#8f4d42";
+  if (passive.allocateNodeIds.includes(edge.from) || passive.allocateNodeIds.includes(edge.to)) return "#b89455";
+  return "#776346";
+}
+
+function edgeWidth(edge, passive) {
+  if (passive.refundNodeIds.includes(edge.from) || passive.refundNodeIds.includes(edge.to)) return "10";
+  if (passive.allocateNodeIds.includes(edge.from) || passive.allocateNodeIds.includes(edge.to)) return "14";
+  return "11";
+}
+
+function edgeOpacity(edge, passive) {
+  if (passive.refundNodeIds.includes(edge.from) || passive.refundNodeIds.includes(edge.to)) return "0.58";
+  if (passive.allocateNodeIds.includes(edge.from) || passive.allocateNodeIds.includes(edge.to)) return "0.72";
+  return "0.46";
 }
 
 function nodeRole(id, passive) {
@@ -592,17 +604,17 @@ function fillForRole(role) {
 function coreFillForRole(role) {
   return {
     refund: "#c94c43",
-    target: "#4fd27f",
-    route: "#62adff",
+    target: "#d2af68",
+    route: "#83b8e7",
     baseline: "#b59c62",
   }[role];
 }
 
 function strokeForRole(role) {
   return {
-    refund: "#ffb0a8",
-    target: "#b8ffd0",
-    route: "#bbdcff",
+    refund: "#d86a61",
+    target: "#f4d18a",
+    route: "#8eb8df",
     baseline: "#c1aa72",
   }[role];
 }
